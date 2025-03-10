@@ -13,7 +13,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import threading
 
 app = Flask(__name__)
-app.secret_key = os.getenv("SECRET_KEY", "supersecretkey")  # Use env var with fallback
+app.secret_key = os.getenv("SECRET_KEY", "supersecretkey")
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
