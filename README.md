@@ -5,6 +5,7 @@ RetenX is a Machine Learning-based Employee Attrition Prediction System designed
 
 
 Features
+
 ✅ Predict employee attrition using 5 ML models (Random Forest, Logistic Regression, SVM, KNN, XGBoost).
 
 ✅ Handle datasets with null values for better accuracy.
@@ -23,6 +24,7 @@ Features
 Project Structure
 
 RetenX/
+
 │── datasets/
 │── models/                 
 │── templates/              
