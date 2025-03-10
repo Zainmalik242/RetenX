@@ -13,7 +13,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import threading
 
 app = Flask(__name__)
-app.secret_key = 'supersecretkey'
+app.secret_key = os.getenv("SECRET_KEY", "supersecretkey")  # Use env var with fallback
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 model_cache = {}
 
 # Preload IBM HR dataset globally with updated path
-DATASET_PATH = r'C:\python12\my projects\EmployeeAttritionProject\datasets\IBM-HR-Analytics-Employee-Attrition-and-Performance.csv'
+DATASET_PATH = os.path.join(os.path.dirname(__file__), 'datasets', 'IBM-HR-Analytics-Employee-Attrition-and-Performance.csv')
 try:
     df = pd.read_csv(DATASET_PATH)
     df['AttritionNumeric'] = df['Attrition'].map({'Yes': 1, 'No': 0})
@@ -464,6 +464,10 @@ def comparison():
         flash(f"Error in comparison page: {str(e)}. Please ensure the dataset is available in the 'datasets' directory.")
         return redirect(url_for('main'))
 
+@app.route('/healthz')
+def health_check():
+    return "OK", 200
+
 if __name__ == '__main__':
     get_model('rf')  # Preload Random Forest model
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=int(os.getenv("PORT", 5000)), debug=False)
