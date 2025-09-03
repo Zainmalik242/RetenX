@@ -38,34 +38,30 @@ RetenX/
 Installation & Setup
 
 1️⃣ Clone the Repository
-
-git clone https://github.com/Rubel286/RetenX.git
-
+git clone https://github.com/AbbasAliHandia/RetenX.git
 cd RetenX
 
 2️⃣ Create & Activate Virtual Environment
-
 On Windows:
-
 python -m venv venv
-
 venv\Scripts\activate
 
 On macOS/Linux
-
 python3 -m venv venv
-
 source venv/bin/activate
 
 3️⃣ Install Dependencies
-
 pip install -r requirements.txt
 
 4️⃣ Run the Flask App
-
 python app.py
 
 Then, open http://127.0.0.1:5000/ in your browser.
+
+## 👨‍💻 Team Members
+- [Abbas Ali Handia](https://github.com/AbbasAliHandia)  
+- [Nawaz Khan]
+- [Rubel Chowdhury](https://github.com/Rubel286)  
 
 
 Check the project in action: https://retenx.onrender.com/
