@@ -60,7 +60,7 @@ Then, open http://127.0.0.1:5000/ in your browser.
 
 ## 👨‍💻 Team Members
 - [Abbas Ali Handia](https://github.com/AbbasAliHandia)  
-- [Nawaz Khan]
+- [Nawaz Khan](https://github.com/Nawazkhan7616)
 - [Rubel Chowdhury](https://github.com/Rubel286)  
 
 
